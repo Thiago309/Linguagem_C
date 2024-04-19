@@ -35,5 +35,7 @@ int modulo(int a){
     int n = a * -1;
     return n;
 }*/
+
+    return 0;
 }
 

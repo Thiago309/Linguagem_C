@@ -4,10 +4,7 @@
 Caso eles sejam iguais, mostre uma mensagem dizendo que eles s˜ao iguais. Caso sejam diferentes,
 informe qual n´umero ´e o maior, e uma mensagem que s˜ao diferentes.*/
 
-int maior(int a, int b){
-
-    return (a > b) ? a : b ;
-}
+int maior(int a, int b);
 
 int main(){
 
@@ -29,4 +26,9 @@ int main(){
 
     }
     return 0;
+}
+
+int maior(int a, int b){
+
+    return (a > b) ? a : b ;
 }

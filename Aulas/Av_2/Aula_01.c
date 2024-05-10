@@ -28,7 +28,7 @@ int main(){
     */
 
     for(int cont = 0; cont<3; cont++){
-        printf("Digite o valor para o vetor tam[%i]", cont);
+        printf("Digite o valor para o vetor tam[%i]: ", cont);
         scanf("%i", &tam[cont]);
     }
 

@@ -26,7 +26,7 @@ int main(){
     notaVinte = resto % 20;
     notaDez = resto % 10;
     
-    printf("Você deve devolver ao cliente R$%.2f . \n");
+    printf("Você deve devolver ao cliente R$%.2f . \n", troco);
     printf("R$100.00: %d Notas | R$50.00: %d Notas | R$20.00: %d Notas | R$10.00: %d Notas |\n", notaCem, notaCinquen, notaVinte, notaDez);
 
     return 0;

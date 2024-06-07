@@ -3,8 +3,6 @@
 /*Questão 20. Escrever um algoritmo que leia trˆes valores inteiros distintos e os escreva em ordem
 crescente.*/
 
-int ordem(int a, int b, int c);
-
 int main(){
 
     int a, b, c, m1, m2, m3;

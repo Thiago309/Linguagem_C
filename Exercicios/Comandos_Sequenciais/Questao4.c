@@ -9,7 +9,7 @@ c) O quociente entre eles.*/
 
 int main(){
 
-    float a, b, s, q;
+    float a, b, s, q, p;
 
     printf("Informe o valor 1: ");
     scanf("%f", &a);
@@ -18,8 +18,9 @@ int main(){
 
     s = a + b;
     q = a / b;
+    p = a * b;
 
-    printf("Sua soma é: %.2f e seu quociente é: %.2f.", s, q);
+    printf("Sua soma é: %.2f, seu produto é %.2f e seu quociente é: %.2f.", s, q, p);
 
     return 0;
 }
